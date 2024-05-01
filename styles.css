@@ -1,0 +1,61 @@
+body {
+	background: black;
+	font-family: "Reddit Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+/* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0 0 0 5px;
+}
+.postcard-body {
+	display: flex;
+}
+.postcard-body p {
+	font-size: 15px;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	font-family: "Reddit Mono", monospace;
+	color: grey;
+	border-style: none none solid none;
+	border-bottom-color: lightgrey;
+	border-width: thin;
+}
+.postcard-footer {
+	text-align: center;
+}
+.postcard-footer button {
+	font-family: "Reddit Mono", monospace;
+	background-color: lightgrey;
+	padding: 3px;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: thin;
+	border-color: grey;
+}
